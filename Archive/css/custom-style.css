@@ -1,0 +1,515 @@
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    background-color: #f6f6f6;
+  }
+.card-body {
+    background: #fff;
+}
+.card.card-page {
+    border: 0px;
+    box-shadow: 1px 1px 14px -5px #d2d2d2;
+}
+  p, a, h1, h2, h3, h4, h5, h6 {font-family: 'Poppins', sans-serif;}
+  .form-control {
+    padding: 9px;
+    border: 1px solid #dddddd;
+}
+h4.header-title {
+    font-size: 15px;
+    text-transform: uppercase;
+    margin-bottom: 13px;
+}
+.h-lg-20px {
+    height: 46px !important;
+}
+a{text-decoration: none;}
+.cstmTable tbody {
+    background-color: #fff !important;
+}
+
+.Notification i {
+    font-size: 22px;
+    margin-right: 37px !important;
+}
+td, th {
+    border: 1px solid #e9e9e9 !important;
+}
+.track{
+    background: #5d12b8  !important;
+    padding: 11px  !important;
+    color: #fff  !important; 
+}
+.btn-custom :hover {background-color: transparent !important;}
+ 
+button.btn-custom.track {
+    border: 0px;
+    margin-right: 27px;
+}
+.inner-col3 {
+    border: 1px dashed #7b36cd;
+    padding: 80px 14px;
+    border-radius: 10px;
+    text-align: center;
+    position: relative;
+}
+.Icondash img {
+    width: 85px;
+}
+.inner-col3 h4 {
+    margin-top: 16px;
+    font-size: 17px;
+}
+.btmArrow i {
+    color: #fff;
+    }
+.btmArrow {
+    background: #7b36cd;
+    padding: 8px;
+    border-radius: 33px;
+    width: 36px;
+    height: 34px;
+    position: absolute;
+    right: 19px;
+    bottom: 15px;
+}
+.dash-add-class{
+    background: #7b36cd;
+    border: 2px dashed #fff;
+}
+.dash-add-class h4{
+color: #fff;
+}
+.btn-blue {
+    background-color: #7b36cd; 
+    color: #fff;     
+    margin-top: 19px !important;
+    padding: 9px 18px !important;}
+.btn-blue:hover {
+        color: #fff;    
+     }
+       
+.Add-border {
+    border: 1px solid #d2d2d2;
+    
+    border-radius: 10px;
+}
+.EditIcon {
+    position: absolute;
+    background: #7b36cd;
+    width: 25px;
+    height: 25px;
+    padding: 3px 7px;
+    border-radius: 19px;
+    right: 10px;
+    bottom: 5px;
+}
+.EditIcon i {
+    color: #fff;
+}
+.HeaderBlue {
+    background: #7b36cd;
+    padding: 8px;
+    display: flex;
+    position: relative;
+}
+.HeaderBlue i, .HeaderBlue h5 {
+    color: #fff;
+    color: #fff;
+    margin: 0px;
+    padding: 5px;
+}
+.HeaderBlue i {
+    font-size: 16px;
+}
+span.editinfo {
+    position: absolute;
+    right: 11px;
+    top: 12px;
+}
+.contactdetails {padding: 15px 10px;}
+.dot {
+    background: #7b36cd;
+    width: 10px;
+    height: 10px;
+    display: inline-block;
+    border-radius: 15px;
+    margin-right: 4px;
+}
+.CardBlueBorder {
+    border: 1px solid #1c54e32e;
+    padding: 17px;
+    margin: 10px;
+    border-radius: 10px;
+    position: relative;
+}
+.ViewIc {
+    margin-right: 7px;
+    background: #7b36cd;
+    padding: 1.5px 5px;
+    width: 21px;
+    height: 21px;
+    display: block;
+    border-radius: 32px;
+}
+.ViewIc i, .DeleteIc i {
+    color: #fff;
+    font-size: 10px;
+}
+.DeleteIc {
+    background: #cb0101;
+    margin-right: 7px;
+    padding: 1.5px 5px;
+    width: 21px;
+    height: 21px;
+    display: block;
+    border-radius: 32px;
+}
+.actionicons {
+    display: flex;
+    position: absolute; 
+    right: 0px;
+}
+.Buttons-bottom {
+ float: right;
+}
+.backBtn {
+    border: 0px;
+    padding: 8px 25px;
+    margin: 5px;
+    border-radius: 14px 0px;
+}
+.backBtn:hover{
+    border-radius: 0px 14px ;
+    transition:.3s;
+    box-shadow: 1px 1px 1px 1px #7b36cd;
+}
+button.btn-save.backBtn {
+    background: #7b36cd;
+    color: #fff;
+    
+}
+.btn.btn-save {
+    background: #7b36cd;
+    color: #fff;
+}
+.btn.btn-reser {
+    background: #c7c7c7;
+    color: rgb(26, 26, 26);
+}
+.Btns {
+    display: flow-root;
+    margin-top: 10px;
+}
+.backBtn{
+    background-color: #cfd2f6;
+}
+.addPadding {padding-right: 15px;}
+/* -----Profile--end-- */
+.QuotaionAccordian {
+    margin-bottom: 12px;
+    background-color: transparent;
+    border: 0px;
+}
+.QuotaionAccordian-header {
+    border: 0px !important;
+    box-shadow: 1px 1px 10px -7px #d2d2d2;
+}
+.accordion-button:not(.collapsed) {
+    color: #1f1f1f;
+    background-color: #ffffff;
+    box-shadow: inset 0 -1px 0 rgba(24, 24, 24, 0.13);
+    font-weight: 600;
+}
+.QuotaionAccordian-Body {
+    background: #f6f6f6;
+    padding: 24px;
+    margin: 14px;
+}
+.QuotaionAccordianBtn {
+    border-left: 4px solid #7b36cd;
+    background-color: #f6f6f6 !important;
+    position: relative;
+    padding-bottom: 30px;
+
+}
+.ValueQuo {
+    font-weight: 400;
+    line-height: 3;
+    color: #7b36cd;
+}
+.QuotationStatus {
+    position: absolute;
+    right: 21px;
+    bottom: 18px;
+}
+.GreenText {
+    color: #0ca579;
+    font-weight: 600;
+}
+.RedText {
+    color: #a5140c;
+    font-weight: 600;
+}
+.QuotaionAccordian-Body h6 {
+    font-weight: 600;
+    font-size: 16px;
+}
+.QuotaionAccordian-Body span {
+    color: #7b36cd;
+    font-size: 14px;
+    font-style: italic;
+}
+.TextCus {
+    width: 98%;
+    margin-left: 11px;
+}
+
+.divView {
+    background: #f6f6f6 !important;
+    padding: 16px;
+    border-left: 2px solid #7b36cd;
+    box-shadow:1px 1px 26px -12px #d2d2d2 ;
+    margin-bottom: 20px;
+}
+.table th {font-weight: 600 !important;}
+.input-group {
+    display: block;
+}
+.custom-file input {
+    border: 1px solid #dedfe1;
+    padding: 9px;
+    width: 75%;
+    border-radius: 4px;
+}
+.custom-file input::file-selector-button {
+    display: none;
+  }
+.custom-file-label {
+    background: #7b36cd;
+    color: #fff;
+    padding: 9.5px 15px;
+    width: 20%;
+    text-align: center;
+}
+.form-control-select {
+    border: 1px solid #ced4da;
+    padding: 9px;
+    display: block;
+    width: 100%;
+    border-radius: 3px;
+}
+.stepsDiv span {
+    display: block;
+    text-align: center; 
+}
+.stepsDiv {
+    margin: 12px;
+    padding: 10px;
+    background: #f2f2f2;
+    border: 1px dashed #7b36cd;
+    margin-top: 37px;
+    position: relative;
+}
+.RightArrow {
+    position: absolute;
+    right: -31px;
+    top: 40%;
+}
+.RightArrow i {
+    color: #7b36cd;
+    font-size: 18px;
+}
+ .RightDate {
+    color: #0cb873;
+}
+
+.accordion-button:focus {
+    z-index: 0; 
+    outline: 1;
+    box-shadow: 0 0 0 0.25rem rgba(255, 255, 255, 0.25);
+}
+.Countsize {
+    font-size: 37px;
+}
+ .SuccessImg img {
+    width: 124px;
+    text-align: center;
+}
+#blue7, #blue4,  #blue2 {color: #7b36cd;}
+#white7, #white4, #white2 {color: #fff;}
+.TextCrt {
+    width: 78%;
+}
+.CreateBtn {
+    width: 20%;
+    margin-left: 10px;
+}
+.brdr {
+    border: 1px solid #d2d2;
+    padding: 5px 19px 12px 12px;
+    background: #fafafa;
+}
+.AddCircle i {
+    font-size: 40px;
+    color: #7b36cd;
+}
+.AddCircle {
+    margin-top: 18px;
+}
+.BKDetails {
+    padding: 10px;
+    background: #f2f2f2;
+    border-left: 2px solid #7b36cd;
+}
+.DataHeadPop {
+    font-weight: 600;
+    display: block;
+}
+.DataPop {
+    padding: 8px;
+}
+.stepsDivPop {
+    min-height: 81px;
+}
+.addBorder-pop {
+    border: 1px solid #e9e5e5;
+    padding: 16px;
+}
+.HSNo {
+    border: 1px solid #1047d04d;
+    padding: 4px 20px;
+    font-size: 12px;
+    display: inline-block;
+    margin: 6px 13px 6px 0px;
+}
+.ADDbrdrPayment {
+    padding: 29px 20px;
+    border: 1px solid #d2d2d2;
+    border-radius: 10px;
+}
+.PaymentMode {
+    padding: 35px;
+    border: 1px solid #1f4ec957;
+    text-align: center;
+    position: relative;
+}
+.PaymentMode input{
+   position: absolute;
+   top: 10px;
+   left: 10px;
+}
+.NetCap {display: block;}
+.netIcon i {
+    font-size: 29px;
+}
+.PrintIcon i {
+    font-size: 28px;
+    color: #7b36cd;
+}
+.PrintIcon {
+    position: absolute;
+    right: 20px;
+    bottom: 23px;
+    display: grid;
+    text-align: center;
+    font-size: 12px;
+
+}
+.SelectCheck h6 {font-size: 13px !important; font-weight:400 ; margin-top: 7px; margin-left: 6px;}
+span.bdot {
+    width: 15px;
+    height: 15px;
+    background: #0d6efd;
+    display: block;
+    position: absolute;
+    left: 5.5px;
+    border: 2px dashed #fff;
+    border-radius: 32px;
+    top: 5.5px;
+}
+.circle-cus {width: 20px !important; height: 26px !important; position: relative;}
+.h-100 {height: 120px !important;}
+.line {
+    width: 2px;
+    background-color: lightgrey !important;
+  }
+  .lead {
+    font-size: 1.1rem;
+  }
+  span.acationPlus i {
+    color: #7b36cd;
+    font-size: 19px;
+}
+
+.bookingcard {
+    border: 1px solid #95a7f0;
+    padding-left: 12px;
+    border-radius: 4px;
+    box-shadow: 1px 0px 39px -12px #d2d2d2;
+}
+.bkngrow {
+    width: 100%;
+    line-height: 30px;
+    display: block;
+}
+.StatusBkng {
+    width: 7%;
+    border-radius: 4px 0px 0px 2px;
+    padding: 4px;
+    color: #fff;
+    font-size: 12px;
+    position: relative;
+    margin-left: -3px
+}
+.StatusBkng span{transform: rotate(-90deg);
+    position: absolute;
+    top: 87px;
+    width: 125px;
+    left: -47px;
+    color: white;
+    text-transform: uppercase;
+    text-align: center; 
+}
+.BkngData {width: 93%;     padding: 12px;}
+.pending { background: #efb20e;}
+.Approved { background: #059d03;}
+.Rejected { background: #e84b12;}
+
+  @media (min-width:768px){
+    .inner-col3 {
+        min-height: 260px !important;
+    }   
+    .right-box {height: 100%;}
+    .actionicons { 
+        top: 5px; 
+    }
+}
+@media (max-width:768px){
+.inner-col3 { 
+    margin-top: 24px;
+    padding: 28px 11px;
+}
+.Icondash img {
+    width: 56px;
+}
+.inner-col3 h4 {
+    margin-top: 10px;
+    font-size: 15px;
+}
+.actionicons {
+    bottom: 12px;
+}
+.addPadding {padding:0px;}
+.CardBlueBorder { 
+ padding: 21px 0px 35px 10px; }
+ .Buttons-bottom {
+ float: right;
+ display: contents;
+    }
+.right-box {margin-top: 20px;}
+.mob-none {
+    display: none !important;
+}
+ 
+}
